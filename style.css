@@ -1,0 +1,114 @@
+body{
+    font-family: Arial;
+    font-size: 15px;
+    line-height: 1.5;
+    /*font: 15px/1.5 Arial;   do same thing*/
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.contain{
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin:0;
+    padding: 0;
+}
+
+header{
+    background: #030303;
+    color:#ffffff;
+    padding-top: 15px;
+    min-height: 70px;
+    border-bottom: #e8491d 5px solid;
+}
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header li{
+    display:inline;
+    padding: 0 20px 0 20px;
+}
+
+
+#padge{
+    float: left;
+}
+header h1{
+    margin:0;
+}
+header nav{
+    float:right;
+    margin-top:10px;
+}
+.highlight{
+    color: #e8491d;
+    font-weight: bold;
+}
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+
+
+#showcase{
+    min-height: 760px;
+    background: url('./image.jpg') no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+}
+#showcase h1{
+    margin-top: 220px;
+    font-size: 55px;
+    margin-bottom: 0;
+    color: #030303;
+}
+#showcase h2{
+    margin-top: 220px;
+    font-size: 40px;
+    margin-bottom: 0;
+    color: #030303;
+}
+#showcase p{
+    margin-top: 0;
+    font-size: 25px;
+    color: #030303;
+}
+footer{
+    margin: 0;
+    padding: 20px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
+}
+#showcase .contain .container{
+    margin-top: 200px;
+    font-size: 40px;
+    color: #030303;
+}
+table{
+    margin:auto;
+    margin-top: 20px;
+    color: #030303;
+    font-size: 25px;
+    
+}
+th{
+    padding: 12px;
+    padding-bottom: 0px;
+    text-align: left;
+}
+td{
+    padding:12px;
+    padding-top: 0px;
+}
+
+
+
